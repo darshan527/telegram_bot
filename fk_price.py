@@ -17,8 +17,8 @@ def parse(res: str) -> float:
         tmp = tmp.text
         tmp = tmp[1:]
         tmp = tmp.replace(",", "")
-        print(float(tmp))
-        print("Done")
+        # print(float(tmp))
+        # print("Done")
         return float(tmp)
     else:
         return 0
